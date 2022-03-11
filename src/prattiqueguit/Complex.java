@@ -47,4 +47,7 @@ public class Complex {
     public Complex conjuguer(Complex x){
         return new Complex(x.reel, -x.imaginaire);
     }
+    public Complex soustraction(Complex z1, Complex z2){
+        return new Complex(z1.reel-z2.reel, z1.imaginaire-z2.imaginaire);
+    }
 }
