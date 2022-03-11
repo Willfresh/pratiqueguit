@@ -43,4 +43,8 @@ public class Complex {
     public Complex opposer(Complex z) {
         return new Complex(-z.reel ,-z.imaginaire);
     }
+    
+    public Complex conjuguer(Complex x){
+        return new Complex(x.reel, -x.imaginaire);
+    }
 }
