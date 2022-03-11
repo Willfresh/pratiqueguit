@@ -40,7 +40,7 @@ public class Complex {
     public String toString() {
         return "Complex{" + "reel=" + reel + ", imaginaire=" + imaginaire + '}';
     }
-    public Complex opposer(Complex c) {
-        return new Complex(-reel ,-imaginaire);
+    public Complex opposer(Complex z) {
+        return new Complex(-z.reel ,-z.imaginaire);
     }
 }
